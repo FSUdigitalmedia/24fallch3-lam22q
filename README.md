@@ -39,7 +39,7 @@ Some ideas:
 ## Submit the Assignment
 
 1. Commit any remaining changes to your local repo
-2. Sync/Push to GitHub
+2. Sync/`Push to `GitHub
 
 > [!IMPORTANT]  
 > Don't forget to turn on GitHub Pages for your repo (like you did in the previous Technical Challenge). It's always helpful to include the URL in your repo's "About" section as well.
