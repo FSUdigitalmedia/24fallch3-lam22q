@@ -24,7 +24,7 @@ background('#fae');
 describe('A canvas with a pink background.');
 }
 function draw() {
-  background(220); // try commenting this out!
+  background(0); // try commenting this out!
   // if x hits the right side or the left side of the canvas,
   // switch directions...
   if (x1 > width || x1 < 0) {
@@ -51,4 +51,15 @@ function draw() {
   }
   y2 = y2 + y2Speed;
   circle(x2, y2, d2);
+  //third shape
+  if (x3 > width || x3 < 0) {
+    x3Speed = x3Speed * -1;
+  }
+  x3 = x3 + x3Speed; // adding a negative xSpeed *decreases* x, right?
+  // same as above, but for the top and bottom of the canvas
+  if (y3 > width || y3 < 0) {
+    y2Speed = y2Speed * -1;
+  }
+  y3 = y3 + y3Speed;
+  circle(x3, y3, d3);
 }
