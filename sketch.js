@@ -20,6 +20,8 @@ function setup() {
 //creates pink background
 // Three-digit hex RGB notation.
 background('#fae');
+function mouseReleased() {
+  '#fae'+= 20;
 }
 function draw() {
    // if x hits the right side or the left side of the canvas,
