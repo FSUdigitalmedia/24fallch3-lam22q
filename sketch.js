@@ -15,7 +15,6 @@ function setup() {
 
 function draw() {
   background(220); // try commenting this out!
-
   // if x hits the right side or the left side of the canvas,
   // switch directions...
   if (x1 > width || x1 < 0) {
@@ -32,7 +31,6 @@ function draw() {
   circle(x1, y1, d1);
 
   //second shape
-
   // if x hits the right side or the left side of the canvas,
   // switch directions...
   if (x2 > width || x2 < 0) {
@@ -47,5 +45,4 @@ function draw() {
   y2 = y2 + y2Speed;
 
   circle(x2, y2, d2);
-
 }
