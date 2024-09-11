@@ -20,12 +20,9 @@ function setup() {
 //creates pink background
 // Three-digit hex RGB notation.
 background('#fae');
-
-describe('A canvas with a pink background.');
 }
 function draw() {
-  background(0); // try commenting this out!
-  // if x hits the right side or the left side of the canvas,
+   // if x hits the right side or the left side of the canvas,
   // switch directions...
   if (x1 > width || x1 < 0) {
     x1Speed = x1Speed * -1;
